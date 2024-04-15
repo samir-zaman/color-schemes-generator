@@ -1,0 +1,59 @@
+html{
+    font-family: "Inter", sans-serif;
+}
+
+main{
+    max-width: 750px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px 0px #0000003e;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+header, #color-selector{
+    height: 30px; 
+}
+
+#scheme-selector, #fetch-button{
+    background-color: white;
+    border: solid 1px; 
+    border-radius: 3px;
+}
+
+#scheme-selector{
+    margin: 0 10px;
+    border-radius: 6px;
+    flex: 1;
+    font-size: 1rem;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('./dropdown-styling/ic-arrow-down.svg');
+    background-repeat: no-repeat;
+    background-position: right 0.5em center;
+}
+
+option{
+    text-align: center;
+}
+
+#swatches-container{
+    display: flex; 
+}
+
+.swatch-wrapper{
+    width: 20%;
+}
+
+.color-box{
+    min-height: 450px;
+}
+
+.hex-code{
+    text-align: center;
+}
